@@ -16,7 +16,7 @@ Loadbalancer is already available and caching/sharding seemed like an overkill a
 Observability is setup via GKE, but additional logging and monitoring can be added.
 
 # Dev contact :
-Akshay Rathore \n
-startswithakshay@gmail.com \n
-+91-7798060059 \n
+Akshay Rathore <br/>
+startswithakshay@gmail.com <br/>
++91-7798060059 <br/>
 Linkedin @ https://www.linkedin.com/in/eerav
