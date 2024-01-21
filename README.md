@@ -1,6 +1,8 @@
 # fizzbuzz-roche
 Production ready fizzbuzz generator with GKE
 
+# build instructions
+cd into the root dir and run ./gradlew clean build
 
 # Containerization and deployment
 Deploy via DockerHub using any preferred deployment engine, a sample dockerfile and pod configuration file is provided which can be used to deploy to GKE.
