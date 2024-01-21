@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fizzbuzz-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fizzbuzz
+  template:
+    metadata:
+      labels:
+        app: fizzbuzz
+    spec:
+      containers:
+        - name: fizzbuzz-container
+          image: gcr.io/[PROJECT_ID]/[REPOSITORY]/[IMAGE]:[TAG]
+          ports:
+            - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fizzbuzz-service
+spec:
+  selector:
+    app: fizzbuzz
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer

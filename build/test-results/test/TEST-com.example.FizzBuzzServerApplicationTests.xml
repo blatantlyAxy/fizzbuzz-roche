@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.FizzBuzzServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T16:59:52" hostname="AKSHAY-EGEN" time="1.175">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.FizzBuzzServerApplicationTests" time="1.175"/>
+  <system-out><![CDATA[22:29:48.423 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.FizzBuzzServerApplicationTests]: FizzBuzzServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:29:48.574 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.FizzBuzzServerApplication for test class com.example.FizzBuzzServerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-18T22:29:49.239+05:30  INFO 33256 --- [    Test worker] c.e.FizzBuzzServerApplicationTests       : Starting FizzBuzzServerApplicationTests using Java 17.0.7 with PID 33256 (started by start in C:\Users\start\OneDrive\Documents\GitHub\FizzBuzzServer)
+2024-01-18T22:29:49.242+05:30  INFO 33256 --- [    Test worker] c.e.FizzBuzzServerApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-01-18T22:29:51.827+05:30  INFO 33256 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-18T22:29:51.904+05:30  INFO 33256 --- [    Test worker] c.e.FizzBuzzServerApplicationTests       : Started FizzBuzzServerApplicationTests in 3.084 seconds (process running for 5.454)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
